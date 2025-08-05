@@ -11,7 +11,7 @@ const Header = () => {
             <h1 className='text-3xl font-bold uppercase'>CodeHelp Blogs</h1>  
            <button
           onClick={toggleTheme}
-          className="py-1 px-3 text-sm border rounded-md dark:border-white border-black"
+          className="py-1 px-3 text-sm border rounded-md text-black dark:bg-gray-800 dark:text-white border-black"
         >
           {theme === "dark" ? "🌞 Light Mode" : "🌙 Dark Mode"}
         </button>  
